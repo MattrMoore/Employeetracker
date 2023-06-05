@@ -1,0 +1,27 @@
+{
+    "name": "EmployeeTracker",
+    "version": "1.0.0",
+    "description": "A database used by a company",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MattrMoore/Employeetracker"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/MattrMoore/Employeetracker/issues"
+    },
+    "homepage": "https://github.com/MattrMoore/Employeetrackery#readme",
+    "dependencies": {
+      "console.table": "^0.10.0",
+      "express": "^4.18.2",
+      "inquirer": "^8.2.4",
+      "mysql2": "^3.2.0"
+    }
+  }
